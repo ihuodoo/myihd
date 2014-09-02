@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *kidNmae;
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,5 +32,7 @@
     [super viewWillAppear:animated];
     self.dataLabel.text = [self.dataObject description];
 }
+
+
 
 @end
